@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Cat clicker</title>
+    <link rel="stylesheet" href="src/css/index.css"/>
+</head>
+<body>
+<div id="page">
+    <div class="clear" style="background: #eee">
+        <ul class="clear" id="select">
+        </ul>
+    </div>
+    <div id="display">
+        <h5 id="catName"></h5>
+        <img class="catShow" id="catImage" alt="cute cat"/>
+        <input id="catNum" type="button" disabled=true value=""/>
+        <input id="admin" type="button" value="admin"/>
+    </div>
+    <form id="catForm" style="display: none">
+        <fieldset>
+            <legend>Cat Information</legend>
+            Cat Name:<input type="text" id="editName"/><br/>
+            Cat url:&nbsp;&nbsp;&nbsp;&nbsp; <input type="text" id="editUrl"/><br/>
+            Cat Num:&nbsp; <input type="text" id="editNum"/><br/>
+            <input type="button" id="submit" value="submit"/>
+            <input type="button" id="cancel" value="cancel"/>
+        </fieldset>
+    </form>
+</div>
+<script src="src/js/index.js"></script>
+</body>
+</html>

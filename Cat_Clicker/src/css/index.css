@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-size: 14px;
+}
+
+div#page div.clear {
+    width: 400px;
+    margin: 0 auto;
+}
+
+ul {
+    margin: 10px auto;
+}
+
+.clear:after {
+    content:'.';
+    height: 0;
+    visibility: hidden;
+    display: block;
+    clear: both;
+}
+
+.catShow {
+    display: block;
+    width: 160px;
+    height: 106px;
+
+}
+
+#display {
+    margin: 0 auto;
+    width: 400px;
+}
+
+fieldset {
+    width: 400px;
+}
